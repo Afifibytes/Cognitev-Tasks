@@ -12,7 +12,7 @@ The following extensions should be supported:
 3. `pl` should find and print all `.pl` and `.pm` file names
 
 ```
-Usage
+Usage:
 python solution.py c,py,pl /path/to/dir
 ```
 ```
