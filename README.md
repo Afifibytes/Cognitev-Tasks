@@ -1,7 +1,7 @@
 # Cognitev-Tasks
 Python scripts, part of interviewing tasks at: http://www.cognitev.com/
 
-**Task 1**
+## Task 1
 **Description:**
 
 Write a python script (solution.py) that takes a list of file extensions and prints all the files from the
@@ -24,7 +24,7 @@ Bonus: You should be able to read extensions from configuration file.
 
 
 
-**Task 2**
+## Task 2
 **Description:**
 
 Please, optimize the function below:
@@ -37,7 +37,7 @@ def fib(n):
 ```
 Hint: Memoization
 
-**Task 3**
+## Task 3
 **Description:**
 
 Provided test file test_stack.py. Write the module required to make the test pass:
