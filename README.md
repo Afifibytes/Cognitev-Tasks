@@ -35,6 +35,8 @@ def fib(n):
   else:
     return fib(n-1) + fib(n-2)
 ```
+Hint: Memoization
+
 **Task 3**
 **Description:**
 
