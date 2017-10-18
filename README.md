@@ -2,16 +2,13 @@
 Python scripts, part of interviewing tasks at: http://www.cognitev.com/
 
 **Task 1**
-Description
+**Description:**
 Write a python script (solution.py) that takes a list of file extensions and prints all the files from the
 passed directory or current directory matching the extensions given.
 The following extensions should be supported:
-1. c should find and print all `.c` and `.h` file names
-2. py should find and print all `.py` and `.pyc` file names
-3. pl should find and print all `.pl` and `.pm` file names
-
-Example:
-given this directory:
+1. `c` should find and print all `.c` and `.h` file names
+2. `py` should find and print all `.py` and `.pyc` file names
+3. `pl` should find and print all `.pl` and `.pm` file names
 
 ```
 Usage
@@ -26,8 +23,8 @@ Bonus: You should be able to read extensions from configuration file.
 
 
 
-Task 2
-Description
+**Task 2**
+**Description:**
 Please, optimize the function below:
 ```
 def fib(n):
@@ -36,8 +33,8 @@ def fib(n):
   else:
     return fib(n-1) + fib(n-2)
 ```
-Task 3
-Description
+**Task 3**
+**Description:**
 
 Provided test file test_stack.py. Write the module required to make the test pass:
 
