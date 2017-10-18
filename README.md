@@ -6,21 +6,22 @@ Description
 Write a python script (solution.py) that takes a list of file extensions and prints all the files from the
 passed directory or current directory matching the extensions given.
 The following extensions should be supported:
-1. c should find and print all .c and .h file names
-2. py should find and print all .py and .pyc file names
-3. pl should find and print all .pl and .pm file names
+1. c should find and print all `.c` and `.h` file names
+2. py should find and print all `.py` and `.pyc` file names
+3. pl should find and print all `.pl` and `.pm` file names
 
 Example:
 given this directory:
 
-
+```
 Usage
 python solution.py c,py,pl /path/to/dir
-
+```
+```
 Output:
 py: ad.py, ad.pyc, campaign.py, campaign.pyc
 pl: service.pl, service.pm
-
+```
 Bonus: You should be able to read extensions from configuration file.
 
 
