@@ -3,6 +3,7 @@ Python scripts, part of interviewing tasks at: http://www.cognitev.com/
 
 **Task 1**
 **Description:**
+
 Write a python script (solution.py) that takes a list of file extensions and prints all the files from the
 passed directory or current directory matching the extensions given.
 The following extensions should be supported:
@@ -25,6 +26,7 @@ Bonus: You should be able to read extensions from configuration file.
 
 **Task 2**
 **Description:**
+
 Please, optimize the function below:
 ```
 def fib(n):
