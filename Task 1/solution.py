@@ -2,12 +2,17 @@ import os
 import sys
 
 def main():
-    if len(sys.argv) != 3:
+    if len(sys.argv) == 2:
+        path = os.listdir()
+
+    elif len(sys.argv) == 3:
+        path = os.listdir(sys.argv[2])
+
+    else:
         print("Usage: python solution.py extensions /path/to/directory")
         exit(1)
 
     extensions = sys.argv[1].split(',')
-    path = os.listdir(sys.argv[2])
     print_files_ext(extensions, path)
 
 
