@@ -6,10 +6,16 @@ def main():
         exit(1)
 
     n = int(sys.argv[1])
+    if n < 0:
+        print("negative numbers not accepted!")
+        exit(2)
     print(fibo(n))
 
-#optimised fibonacci function
+
 def fibo(n):
+    """ optimised fibonacci function with dynamic programming technique
+        takes integer n and return fibonacci(n)
+    """
     fibo = []
     fibo.append(0)
     fibo.append(1)
