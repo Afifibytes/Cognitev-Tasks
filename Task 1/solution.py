@@ -4,10 +4,8 @@ import sys
 def main():
     if len(sys.argv) == 2:
         path = os.listdir()
-
     elif len(sys.argv) == 3:
         path = os.listdir(sys.argv[2])
-
     else:
         print("Usage: python solution.py extensions /path/to/directory")
         exit(1)
