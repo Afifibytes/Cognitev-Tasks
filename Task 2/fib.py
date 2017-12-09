@@ -13,9 +13,7 @@ def main():
 
 
 def fibo(n):
-    """ optimised fibonacci function with dynamic programming technique
-        takes integer n and returns fibonacci(n)
-    """
+    """ optimised fibonacci function takes integer n and returns fibonacci(n)"""
     fibo = []
     fibo.append(0)
     fibo.append(1)
